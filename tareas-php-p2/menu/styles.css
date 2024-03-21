@@ -1,0 +1,39 @@
+*{
+     padding: 0px;
+     margin: 0px;
+}
+#header{
+     margin: auto;
+     width: 500px;
+     font-family: sans-serif;
+}
+ul,ol{
+     list-style: none;
+}
+.nav li a{
+     background-color:cornflowerblue;
+     color: aliceblue;
+     text-decoration: none;
+     padding: 10px 15px;
+     display: block;
+}
+.nav li a:hover{
+     background-color: #434343;
+}
+.nav > li {
+     float: left;
+}
+.nav li ul {
+     display: none;
+     position: absolute;
+     min-width: 140px;
+}
+.nav li:hover > ul{
+     display: block;
+}
+.title{
+     background-color: blueviolet;
+     font-size: 2.5rem;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
